@@ -1,0 +1,24 @@
+.header {
+    border-style: solid;
+    float: left;
+    width: 750px;
+    height: 150px;
+    background-color: rgb(217, 0, 0);
+    display: table-cell;
+    text-align: justify;
+    text-align: left;
+    margin: 0 auto;
+}
+ .headerB {
+    border-style: solid;
+    position: absolute;
+     width: 350px;
+    height: 150px;
+    display: inline-block;
+
+    text-align: center;
+   vertical-align: middle;
+    
+   
+background-color: rgb(217, 0, 0);
+ }   
