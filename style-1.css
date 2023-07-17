@@ -1,0 +1,68 @@
+.grid-container {
+    width: 800px;
+    height:1000px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+      background-color: rgb(224, 16, 16);
+      float: left;
+      border: solid red 1pt;
+}  
+
+.photo {
+  text-align: center;
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.header {
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+    text-align: center;
+    line-height:250px;
+    font-size: large;
+    grid-column: 2;
+    grid-row:1;
+}
+.aboutme{
+
+   text-align: center;
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+grid-column: 1;
+grid-row: 2; 
+border: solid black 2pt;
+height:450px ;
+}
+.skills{
+    float: left;
+    
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+    grid-column:2;
+    grid-row:2;
+    border: solid black 2pt;
+}
+.work{
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+    grid-column:2;
+    grid:3;
+    border: solid black 2pt;}
+.awards{
+    margin: 20pt 5pt;
+    padding: 2pt 5pt;
+    grid-column:2;
+    grid:4;
+    border: solid black 2pt;}
+
+    .edu{
+        margin: 20pt 5pt;
+        padding: 2pt 5pt;
+        grid-column: 1;
+        grid-row: 4;
+        border: solid black 2pt;}
+
+    
